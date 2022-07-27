@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+h1{
+    min-height: 10%;
+    text-align: center;
+    padding:15px;
+    box-sizing: border-box;
+}
+.links{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.lists{
+    width: 100%;
+    height: 70%;
+    padding: 2% 0 0 10% ;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.htmlhover, .mediahover, .csshover, .introhover, .combhover{
+    display: none;
+}
+.htmlhead:hover + .htmlhover{
+    display: block;
+}
+.media:hover+.mediahover{
+    display: block;
+}
+.csshead:hover+.csshover{
+    display: block;
+}
+.introhead:hover+.introhover{
+    display: block;
+}
+.combhead:hover+.combhover{
+    display: block;
+}
+.htmlhover:hover, .mediahover:hover, .csshover:hover, .introhover:hover, .combhover:hover{
+    display: block;
+}
+.htmlhover, .mediahover, .csshover, .introhover, .combhover{
+    padding-left: 35px;
+}

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+h1{
+    min-height: 10%;
+    text-align: center;
+    padding:15px;
+    box-sizing: border-box;
+}
+.links{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.tableContain{
+    height: 70%;
+    width: 100%;
+}
+table{
+    border: 10px outset black;
+    text-align: center;
+    margin: 1% auto;
+    width: 70%;
+    height: 80%;
+}
+td{
+    border: 1px inset rgb(79, 79, 79);
+    height: 50px;
+    width:10%;
+}
+#numbers{
+    font-weight: 1000;
+}
+.bggrey{
+    background-color: rgb(232, 232, 232);
+}

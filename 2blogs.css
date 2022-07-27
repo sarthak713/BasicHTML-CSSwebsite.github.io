@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+h1{
+    min-height: 10%;
+    text-align: center;
+    padding:15px;
+    box-sizing: border-box;
+}
+.links, .sections{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.sectionHead{
+    text-align: center;
+    width: 80%;
+    border: 3px solid rgb(0, 160, 155);
+    margin: 15px auto;
+}
+.content{
+    padding: 0 10%;
+}
+iframe{
+    margin: 15px 10px;
+}
+.line{
+    height: 2px;
+    background-color: orange;
+    border: none;
+    margin-bottom: 15px;
+}
+span{
+    line-height : 5px;
+}

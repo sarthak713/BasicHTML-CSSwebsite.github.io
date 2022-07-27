@@ -1,0 +1,49 @@
+.footer{
+    height: 10vh;
+    width: 30vw;
+    margin: 10px auto;
+}
+.namebox{
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+.made{
+    font-size:16px;
+}
+
+.social{
+    height: 10px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding-top: 12px;
+    padding-bottom: 1vw;
+}
+.linkedin,
+.github,
+.instagram
+{
+    position: relative;
+    margin: 0 0.5vw;
+    cursor: pointer;
+    font-size: 16px;
+}
+a{
+    transition: all 0.2s;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color:rgb(85, 85, 85);
+}
+a:active {
+    color: rgb(189, 189, 189);
+}
